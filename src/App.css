@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+ box-sizing: border-box;
+}
+.tableCon {
+  margin: 20px auto;
+  width: 500px;
+  height: 200px;
+  
+}
+
+table, th, td{
+  text-align: center;
+  border: 1px solid orange;
+  border-collapse: collapse;
+
+  
+}
+
+td {
+  height: 60px;
+  width: 80px;
+}
+
+.inputSalary {
+  width: 60px;
+  height: 35px;
+  font-size: medium;
+  text-align: center;
+}
+.salary {
+  text-align: center;
+  font-size: medium;
+}
